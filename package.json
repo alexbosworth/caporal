@@ -1,6 +1,6 @@
 {
   "name": "@alexbosworth/caporal",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "A full-featured framework for building command line applications (cli) with node.js",
   "main": "index.js",
   "types": "index.d.ts",
@@ -59,7 +59,7 @@
   },
   "dependencies": {
     "@alexbosworth/cli-table3": "0.6.1",
-    "@alexbosworth/prettyjson": "1.2.1",
+    "@alexbosworth/prettyjson": "1.2.2",
     "bluebird": "^3.4.7",
     "colorette": "^1.0.1",
     "fast-levenshtein": "^2.0.6",

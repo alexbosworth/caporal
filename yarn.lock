@@ -11,13 +11,13 @@
   optionalDependencies:
     "colors" "1.4.0"
 
-"@alexbosworth/prettyjson@1.2.1":
-  "integrity" "sha512-b7AoM21tb21f+ZAZfKswhQ5u+ZjjYt6Mywlp1nbXrKEmER/iIco10S4Ply9dSAon4alpHTcP1ixT/kZb7422/Q=="
-  "resolved" "https://registry.npmjs.org/@alexbosworth/prettyjson/-/prettyjson-1.2.1.tgz"
-  "version" "1.2.1"
+"@alexbosworth/prettyjson@1.2.2":
+  "integrity" "sha512-JsqGgC96z8HFceI94ZLAXLxPXw9oMmQh9XpK5tbRSoU6A4JGz1I7ssplLOTfc50Y73bWVoEJs1ja7BcEToMFmQ=="
+  "resolved" "https://registry.npmjs.org/@alexbosworth/prettyjson/-/prettyjson-1.2.2.tgz"
+  "version" "1.2.2"
   dependencies:
     "colors" "1.1.2"
-    "minimist" "^1.2.0"
+    "minimist" "1.2.6"
 
 "@babel/code-frame@^7.0.0":
   "integrity" "sha1-BuKrGb21NThVWaq7W6WXKUgoAPg= sha512-OfC2uemaknXr87bdLUkWog7nYuliM9Ij5HUcajsVcMCpQrcLmtxRbVFTIqmcSkSeYRBFBRxs2FiUqFJDLdiebA=="
@@ -2769,6 +2769,11 @@
   "integrity" "sha1-hX/Kv8M5fSYluCKCYuhqp6ARsF0="
   "resolved" "https://registry.npmjs.org/minimist/-/minimist-0.0.8.tgz"
   "version" "0.0.8"
+
+"minimist@1.2.6":
+  "integrity" "sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q=="
+  "resolved" "https://registry.npmjs.org/minimist/-/minimist-1.2.6.tgz"
+  "version" "1.2.6"
 
 "ministyle@~0.1.3":
   "integrity" "sha1-sQSB6xaqj3ts2YOBc5OkTaDloM0="
