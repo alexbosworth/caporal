@@ -1,6 +1,6 @@
 {
   "name": "@alexbosworth/caporal",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "description": "A full-featured framework for building command line applications (cli) with node.js",
   "main": "index.js",
   "types": "index.d.ts",
@@ -66,7 +66,8 @@
     "lodash": "^4.17.14",
     "micromist": "1.1.0",
     "tabtab": "^2.2.2",
-    "winston": "^2.3.1"
+    "winston": "3.7.2",
+    "winston-transport": "4.5.0"
   },
   "config": {
     "commitizen": {
