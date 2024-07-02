@@ -28,7 +28,7 @@ CaporalTransport.prototype.log = function (level, msg, meta, callback) {
   callback(null, true);
 };
 
-exports.logger = new (winston.Logger)({
+exports.logger = winston.createLogger({
   transports: [
     new (CaporalTransport)()
   ]

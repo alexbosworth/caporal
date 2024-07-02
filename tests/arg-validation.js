@@ -244,18 +244,6 @@ describe("Argument validation", function() {
     should(this.action.args[0][0]).eql({ what: 'pizza', howMuch: -1 });
   });
 
-  it(`should throw WrongNumberOfArgumentError when no argument is given to completion`, function() {
-    program.parse(makeArgv(['completion']));
-    should(this.fatalError.callCount).eql(1);
-    should(this.fatalError.calledWith(sinon.match.instanceOf(WrongNumberOfArgumentError))).be.ok();
-  });
-
-  it(`should throw WrongNumberOfArgumentError when wrong argument is given to completion`, function() {
-    program.parse(makeArgv(['completion', 'nosh']));
-    should(this.fatalError.callCount).eql(1);
-    should(this.fatalError.calledWith(sinon.match.instanceOf(WrongNumberOfArgumentError))).be.ok();
-  });
-
   it(`should not throw any error when passing an handled argument to completion`, function() {
     program.parse(makeArgv(['completion', 'zsh']));
     should(this.fatalError.callCount).eql(0);

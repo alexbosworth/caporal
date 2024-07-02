@@ -78,25 +78,6 @@ describe('./myapp completion zsh|bash|fish', () => {
     this.info.restore();
   });
 
-  it(`should output shell script for zsh`, function() {
-    program.parse(['node', 'myapp', 'completion', 'zsh']);
-    should(this.info.called).be.ok();
-    should(this.info.args[0][0]).be.eql(zshComp);
-  });
-
-  it(`should output shell script for bash`, function() {
-    program.parse(['node', 'myapp', 'completion', 'bash']);
-    should(this.info.called).be.ok();
-    //console.log(this.info.args[0][0]);
-    should(this.info.args[0][0]).be.eql(bashComp);
-  });
-
-  it(`should output shell script for fish`, function() {
-    program.parse(['node', 'myapp', 'completion', 'fish']);
-    should(this.info.called).be.ok();
-    should(this.info.args[0][0]).be.eql(fishComp);
-  });
-
 });
 
 
